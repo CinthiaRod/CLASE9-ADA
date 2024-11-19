@@ -10,7 +10,7 @@ const RANGO_MINIMO = 1;
 const RANGO_MAXIMO = 100;
 let Message ='';
 
-if (EnterNumber === RANGO_MINIMO){
+if (EnterNumber >= RANGO_MINIMO && EnterNumber < RANGO_MAXIMO){
     Message = 'It is within the range';
 }else if (EnterNumber === RANGO_MAXIMO && EnterNumber >1){
     Message = 'It is whithin the range';
