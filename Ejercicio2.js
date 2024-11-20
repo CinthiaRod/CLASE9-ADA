@@ -15,7 +15,7 @@ if (EnterNumber >= RANGO_MINIMO && EnterNumber < RANGO_MAXIMO){
 }else if (EnterNumber === RANGO_MAXIMO && EnterNumber >1){
     Message = 'It is whithin the range';
 }else {
-    Message ='Out of range'
+    Message ='Invalid data'
 }
 
 console.log ( Message);
